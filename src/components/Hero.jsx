@@ -89,7 +89,7 @@ const Hero = () => {
 
             <div className="view-cocktails">
               <p className="subtitle">
-                very cocktail on our menu is a blend of premium ingredients,
+                Every cocktail on our menu is a blend of premium ingredients,
                 creative flair, and timeless recipes — designed to delight your
                 senses.
               </p>
@@ -102,7 +102,7 @@ const Hero = () => {
       <div className="video absolute inset-0">
         <video
           ref={videoRef}
-          src="/videos/input.mp4" muted playsInline preload="auto" />
+          src="/videos/output.mp4" muted playsInline preload="auto" />
       </div>
     </>
   );
