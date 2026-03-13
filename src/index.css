@@ -52,6 +52,15 @@ body {
   );
 }
 
+/* @utility radial-gradient {
+  background: radial-gradient(
+    circle at center,
+    #ff2400 0%,
+    #8b0000 50%,
+    #4a0000 100%
+  );
+} */
+
 @utility masked-img {
   mask-image: url("/images/mask-img.png");
   mask-repeat: no-repeat;
